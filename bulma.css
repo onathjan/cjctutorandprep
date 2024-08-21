@@ -21560,7 +21560,7 @@ has-background-danger.is-hoverable:active {
 }
 
 .hero-container {
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(255, 255, 255, 0.98);
   border-radius: 10px;
   padding: 30px;
 }
