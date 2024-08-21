@@ -25,9 +25,6 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Remove the "is-active" class from both the "navbar-burger" and the "navbar-menu"
         el.classList.remove('is-active');
-        if ($target) {
-          $target.classList.remove('is-active');
-        }
       });
     });
   });
