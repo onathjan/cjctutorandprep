@@ -21553,7 +21553,7 @@ has-background-danger.is-hoverable:active {
 /* Custom Styles */
 
 .hero {
-  background-image: url("images/hero-math-img.jpg");
+  background-image: url("images/hero-math-img.webp");
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
