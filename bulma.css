@@ -21564,3 +21564,30 @@ has-background-danger.is-hoverable:active {
   border-radius: 10px;
   padding: 30px;
 }
+
+@media (max-width: 1024px) {
+  div#navMenu.navbar-menu.is-active {
+    border-radius: 15px !important;
+    padding-bottom: 20px !important;
+  }
+
+  div#navMenu.navbar-menu.is-active div.buttons {
+    display: flex !important;
+    flex-direction: column !important;
+    width: auto !important;
+  }
+
+  .logo-container {
+    max-width: 300px !important;
+  }
+
+  .logo-text {
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .is-flex-direction-column-mobile {
+    flex-direction: column !important;
+  }
+}
