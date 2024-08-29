@@ -21552,6 +21552,15 @@ has-background-danger.is-hoverable:active {
 
 /* Custom Styles */
 
+#logo {
+  margin: -10px 0;
+  min-height: 100px !important;
+}
+
+.dark-logo {
+  display: none !important;
+}
+
 .hero {
   background-image: url("images/hero-math-img.webp");
   background-size: cover; 
@@ -21565,13 +21574,8 @@ has-background-danger.is-hoverable:active {
   padding: 30px;
 }
 
-#logo {
-  margin: -10px 0;
-  min-height: 100px !important;
-}
-
-.dark-logo {
-  display: none !important;
+.calendly-widget {
+  border: 1px solid #999;
 }
 
 @media (prefers-color-scheme: dark) {
