@@ -21565,6 +21565,25 @@ has-background-danger.is-hoverable:active {
   padding: 30px;
 }
 
+#logo {
+  margin: -10px 0;
+  min-height: 100px !important;
+}
+
+.dark-logo {
+  display: none !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .light-logo {
+    display: none !important;
+  }
+
+  .dark-logo {
+    display: block !important;
+  }
+}
+
 @media (max-width: 1024px) {
   div#navMenu.navbar-menu.is-active {
     border-radius: 15px !important;
